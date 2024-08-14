@@ -32,10 +32,7 @@ nav .close {
     width: 30px;
     height: 30px;
 }
-.menu {
-    display: none;
-}
-.close {
+.menu, .close {
     display: none;
 }
 ul {
@@ -68,7 +65,7 @@ li.active a {
 .mapArea h1 {
     margin-bottom: 15px;
     text-align: center;
-    font-size: 45px;
+    font-size: 40px;
 }
 .mapArea img {
     width: 100%;
@@ -107,9 +104,10 @@ li.active a {
     min-width: 100px;
     margin-right: 15px;
 }
-button {
+.button {
     margin: auto;
-    margin-bottom: 30px;
+}
+button {
     width: 270px;
     height: 70px;
     border: 2.5px solid #ffde00;
@@ -127,13 +125,19 @@ footer {
     background-color: #e2e2e2;
     font-size: 14px;
     text-align: center;
+    margin-top: 30px;
     padding: 15px;
     display: flex;
     flex-direction: column;
 }
 footer span, footer a {
-    margin: 15px;
+    margin: 0 15px;
     color: #666;
+}
+footer span {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
 }
 .country-link {
     margin: auto;
@@ -209,5 +213,8 @@ footer span, footer a {
         min-height: 70px;
         max-width: 70px;
         min-width: 70px;
+    }
+    footer span {
+        font-size: 10px;
     }
 }
