@@ -163,12 +163,12 @@ footer span {
 @media(max-width: 962px) {
     nav {
         display: none;
-        position: absolute;
+        position: fixed;
         background-color: #ffde00;
         width: 70vw;
-        height: 100vh;
-        top: 0px;
+        top: 0;
         right: 0;
+        bottom: 0;
     }
     .menu {
         display: block;
